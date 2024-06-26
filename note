@@ -1,0 +1,8 @@
+https://github.com/LCH1238/bevdet-tensorrt-cpp/tree/one
+
+#### log ####
+2024/06/25  
+ 1. initial setup 
+2024/06/26
+ 1. 代码内容review后，了解到LCH1238只是考虑了分为两部分： img_stage, bev_stage
+ 2. 通过infer把一个model分成各个部分，分别export onnx.
